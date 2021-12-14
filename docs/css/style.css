@@ -23,14 +23,14 @@ html{
 
 #navbar::before{
     content: "";
-    background-color: black;
+    background-color: rgb(103, 214, 93);
     position: absolute;
     top:0px;
     left:0px;
     height: 100%;
     width:100%;
     z-index: -1;
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 
 /* Navigation Bar: Logo and Image */
@@ -65,7 +65,7 @@ html{
 }
 
 #navbar ul li a:hover{
-    color: black;
+    color:rgb(88, 197, 78);
     background-color: white;
 }
 
@@ -79,28 +79,30 @@ html{
     height: 550px;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
 }
 
 #home::before{ 
     content: "";
     position: absolute;
-    background: url('../bg1.jpg') no-repeat center center/cover;
+    background: url('../slider-3.jpg') no-repeat center center/cover;
     height: 642px;
     top:0px;
     left:0px;
     width: 100%;
     z-index: -1;
     opacity:0.89;
+    margin-top: 89px;
 }
 
 #home h1{
-    color:white;
+    color:rgb(86, 192, 77);
     text-align: center;
     font-family: 'Bree Serif', serif;
 }
 
 #home p{
-    color:white;
+    color:black;
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Bree Serif', serif;
@@ -127,34 +129,36 @@ html{
     margin-bottom: 20px;
     align-items: center;
     /* box-shadow: black; */
-    box-shadow: 0 0 10px rgb(0, 0, 0,5);
+    box-shadow:0 0 20px rgb(0 0 98);
+    
     /* -webkit-transition-duration: 0.3s; */
     /* -webkit-transition-property: box-shadow,transform;
     transition-property: box-shadow,transform; */
 }
 #order.box:hover{
-    background: rgb(31, 16, 16);
+    /* background: rgb(86, 192, 77); */
     cursor: pointer;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 0 20px rgb(86, 192, 77); */
     /* -webkit-transform: scale(1.1); */
-    box-shadow: rgba(0, 0, 0, 0.5);
+    /* box-shadow: rgb(86, 192, 77); */
 
 }
 
 #orders .box img{ 
-   height: 160px;
-   margin: auto;
-   display: block;
+    height: 161px;
+    margin: auto;
+    display: block;
+    width: 233px;
 }
 
 #orders .box p{
     font-family: 'Bree Serif', serif;
 
 } 
-#order .box p span{
+/* #order .box p span{
 
         content: "\20B9";
-}
+} */
  .box div{
     justify-content: center;
     margin-left: 36px;
@@ -172,8 +176,9 @@ html{
     
   
     margin-top: 23px;
-    color: rgb(150, 60, 60);
+    color:  rgb(219, 15, 15);
     margin-left: 30px;
+    font-weight: bold;
   
 }
 
@@ -193,13 +198,13 @@ html{
     display: flex;
 }
 #services .box{ 
-    border: 2px solid brown;
+    border: 2px;
     padding: 34px;
     margin: 2px 55px;
     border-radius: 28px;
     background: #f2f2f2;
     margin-bottom: 20px;
-    box-shadow: 0 0 10px rgb(0, 0, 0,5);
+    box-shadow: 0 0 20px rgb(0, 0, 0,5);
     
 
 }
@@ -461,12 +466,12 @@ html{
     /* align-self: center;  */
 
     padding: 12px 14px;
-    border: 2px solid white;
-    background-color: rgb(219, 15, 15);
+    border: 2px solid rgb(86, 192, 77);
+    background-color: rgb(86, 192, 77);
     color: white;
     margin-left: 42px;
     font-size: 1rem;
-    border-radius: 10px;
+    border-radius: 35px;
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bolder;
@@ -479,14 +484,14 @@ html{
     color: white;
 }
 .btn a:hover{
-    background-color: white;
-    color: rgb(219, 15, 15);
-    /* border:solid rgb(219, 15, 15); */
+    background-color: rgb(219, 15, 15);
+    
+    border:solid rgb(219, 15, 15);
     transition-duration: 0.5s;
 }
 .btn:hover,.btn-1:hover{
-    background-color: white;
-    color: rgb(219, 15, 15);
+    background-color: rgb(219, 15, 15);
+    /* color: rgb(219, 15, 15); */
     border:solid rgb(219, 15, 15);
     transition-duration: 0.5s;
 }
